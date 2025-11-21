@@ -1,0 +1,64 @@
+{
+  "best_model": "GradientBoosting",
+  "best_macroF1_cv": 0.7463346426740068,
+  "baseline_class": "devops_sre",
+  "baseline_accuracy_test": 0.559748427672956,
+  "metrics_test": {
+    "accuracy_cv_mean": 0.7515685539307586,
+    "f1_cv_mean": 0.7463346426740068,
+    "accuracy_test": 0.779874213836478,
+    "f1_test": 0.7705816877602342,
+    "precision_test": 0.785861713106295,
+    "recall_test": 0.7667736757624398
+  },
+  "all_models": {
+    "RandomForest": {
+      "accuracy_cv_mean": 0.7373203349581303,
+      "f1_cv_mean": 0.7334305900320914,
+      "accuracy_test": 0.8113207547169812,
+      "f1_test": 0.8079710144927537,
+      "precision_test": 0.8091467356173239,
+      "recall_test": 0.8070626003210273
+    },
+    "GradientBoosting": {
+      "accuracy_cv_mean": 0.7515685539307586,
+      "f1_cv_mean": 0.7463346426740068,
+      "accuracy_test": 0.779874213836478,
+      "f1_test": 0.7705816877602342,
+      "precision_test": 0.785861713106295,
+      "recall_test": 0.7667736757624398
+    },
+    "LinearSVC": {
+      "accuracy_cv_mean": 0.7405574303212099,
+      "f1_cv_mean": 0.7336678491866138,
+      "accuracy_test": 0.7610062893081762,
+      "f1_test": 0.7539100684261975,
+      "precision_test": 0.7604755570335883,
+      "recall_test": 0.7514446227929374
+    },
+    "KNN": {
+      "accuracy_cv_mean": 0.7262217222847145,
+      "f1_cv_mean": 0.7161417429952588,
+      "accuracy_test": 0.779874213836478,
+      "f1_test": 0.7679799874921827,
+      "precision_test": 0.7924528301886793,
+      "recall_test": 0.7637239165329053
+    },
+    "LogisticRegression": {
+      "accuracy_cv_mean": 0.7469066366704162,
+      "f1_cv_mean": 0.7395399950547976,
+      "accuracy_test": 0.7672955974842768,
+      "f1_test": 0.7587055494032238,
+      "precision_test": 0.7698305084745762,
+      "recall_test": 0.75553772070626
+    },
+    "MLP": {
+      "accuracy_cv_mean": 0.7436945381827271,
+      "f1_cv_mean": 0.7384286421749277,
+      "accuracy_test": 0.7484276729559748,
+      "f1_test": 0.7420506164828033,
+      "precision_test": 0.7461348684210527,
+      "recall_test": 0.7402086677367576
+    }
+  }
+}
