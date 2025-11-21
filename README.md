@@ -142,6 +142,6 @@ Principais colunas utilizadas:
 
 No terminal:
 
-pip install -r requirements.txt
-python main.py
+- pip install -r requirements.txt
+- python main.py
 
