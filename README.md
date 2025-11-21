@@ -140,6 +140,10 @@ Principais colunas utilizadas:
 
 # 8. Como Executar
 
+Organização:
+
+- Colocar as 2 planilhas .csv (survey_results) enviadas no Teams abaixo da pasta /data
+
 No terminal:
 
 - pip install -r requirements.txt
